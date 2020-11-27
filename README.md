@@ -1,6 +1,8 @@
 # Henry Labs
 ## Mercado Libre Search
 
+<img src="
+ezgif.com-video-to-gif.gif" alt=""/>
 
 Autor: Hernán Chamorro
 
