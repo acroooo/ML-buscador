@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SearchBar from "./components/SearchBar";
 import Catalogo from "./components/Catalogo";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const Routes = () => {
   return (

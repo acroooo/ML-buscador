@@ -32,15 +32,3 @@ export function getCondicion(payload, offset = 0, sort, condition) {
       .catch((error) => alert(error));
   };
 }
-
-export function getDetalles(id) {
-  return function (dispatch) {
-    axios
-      .get(`${url}/item/${id}`)
-      .then((res) => res.data)
-      .then((data) => {
-        dispatch({ type: DETALLES, payload: data });
-      })
-      .catch((error) => alert(error));
-  };
-}

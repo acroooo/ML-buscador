@@ -14,7 +14,6 @@ function SearchBar() {
   const [input, setInput] = useState("");
   const dispatch = useDispatch();
   const Producto = useSelector((state) => state.productoactual);
-  const Productos = useSelector((state) => state.productos);
   const Pagina = useSelector((state) => state.offsetactual);
   var Orden = useSelector((state) => state.ordenactual);
   var Condicion = useSelector((state) => state.condicion);

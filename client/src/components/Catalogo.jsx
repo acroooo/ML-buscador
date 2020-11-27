@@ -1,21 +1,10 @@
-import React, { useEffect } from "react";
-import { getProductos, getCondicion } from "../redux/actions.js";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import ProductCard from "./ProductCard";
-import { Button, Col, Jumbotron, Nav, Row } from "react-bootstrap";
+import { Button, Col, Jumbotron, Row } from "react-bootstrap";
 
 function Catalogo() {
-  const dispatch = useDispatch();
-  const Producto = useSelector((state) => state.productoactual);
   const Productos = useSelector((state) => state.productos);
-  const Pagina = useSelector((state) => state.offsetactual);
-  var Orden = useSelector((state) => state.ordenactual);
-  var Condicion = useSelector((state) => state.condicion);
-
-  useEffect(() => {
-    dispatch(getProductos(Producto, Pagina, Orden));
-    dispatch(getCondicion(Condicion));
-  }, [getProductos, getCondicion]);
 
   return (
     <div>

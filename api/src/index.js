@@ -12,5 +12,5 @@ app.use(cors());
 app.use(require("./routes/rutas.js"));
 //ARRANCA SV
 app.listen(port, () => {
-  console.log(`Servidor corriendo en ${port}`);
+  console.log(`Servidor despierto desde temprano en el puerto => ${port}`);
 });

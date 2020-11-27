@@ -1,8 +1,5 @@
 import React from "react";
 import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
-import { Link } from "react-router-dom";
-
-const url = `http://localhost:3000`;
 
 const ProductCard = ({ imagen, title, price, condition, stock, id }) => {
   return (
