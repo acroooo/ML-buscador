@@ -112,7 +112,7 @@ function SearchBar() {
                 dispatch(getProductos(Producto));
               }}
             >
-              Limpiar Filtros
+              Página inicial
             </Nav.Link>
           </Nav>
           <Form onSubmit={(e) => submitBusqueda(e, input)} inline>

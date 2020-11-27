@@ -1,11 +1,10 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import ProductCard from "./ProductCard";
 import { Button, Col, Jumbotron, Row } from "react-bootstrap";
 
 function Catalogo() {
   const Productos = useSelector((state) => state.productos);
-
   return (
     <div>
       <Jumbotron>
