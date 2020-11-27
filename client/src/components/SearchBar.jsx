@@ -30,8 +30,10 @@ function SearchBar() {
   }
   return (
     <div>
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Mercado Libre Search</Navbar.Brand>
+      <Navbar bg="dark" expand="lg">
+        <Navbar.Brand style={{ color: "white" }} href="/">
+          Mercado Libre Search
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
