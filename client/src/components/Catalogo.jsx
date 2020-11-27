@@ -16,7 +16,9 @@ function Catalogo() {
           Este proyecto se entrega dentro del ámbito de Henry Labs.
         </p>
         <p>
-          <Button variant="primary">Contacta al desarrollador</Button>
+          <Button variant="primary" href="mailto:hernang.work@gmail.com">
+            Contacta al desarrollador
+          </Button>
         </p>
       </Jumbotron>
       <Row>
